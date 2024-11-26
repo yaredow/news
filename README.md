@@ -1,5 +1,5 @@
 ---
-# News Portal 🌐
+# Newspaper App 🌐
 
 _A beginner-friendly Django project from the "Django for Beginners" book by William S. Vincent._
 
