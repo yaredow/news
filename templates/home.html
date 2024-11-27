@@ -3,17 +3,14 @@
     Home
 {% endblock title %}
 {% block content %}
-    {% if user.is_authenticated %}
-        Hi {{ user.username }}! you are {{ user.age }} years old.
-        <p>
-            <form action="{% url 'logout' %}" method="POST">
-                {% csrf_token %}
-                <button type="submit">Log Out</button>
-            </form>
+    <br />
+    <div class="jumbotron">
+        <h1 class="display-4">Newspaper app</h1>
+        <p class="lead">A Newspaper website built with Django.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg"
+               href="{% url 'article_list' %}"
+               role="button">View All Articles</a>
         </p>
-    {% else %}
-        <p>You are not logged in</p>
-        <a href="{% url 'login' %}">Log In</a> |
-        <a href="{% url 'signup' %}">Sign Up</a>
-    {% endif %}
+    </div>
 {% endblock content %}

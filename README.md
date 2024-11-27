@@ -3,7 +3,7 @@
 
 _A beginner-friendly Django project from the "Django for Beginners" book by William S. Vincent._
 
-This project is a simple news website designed to teach the fundamentals of Django's Model-View-Template (MVT) architecture. It includes features like dynamic articles, a user-friendly admin interface, and clean templates.
+_This project is a simple news website designed to teach the fundamentals of Django's Model-View-Template (MVT) architecture. It includes features like dynamic articles, a user-friendly admin interface, and clean templates.
 ---
 
 ## Features 🚀
